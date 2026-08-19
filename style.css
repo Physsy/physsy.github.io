@@ -1,0 +1,117 @@
+.text {
+   text-align: center;
+   align-content: center;
+}
+.text a{
+   float: right;
+   padding: 10px;
+   font-weight: bolder;
+   text-decoration: none;
+   color: black;
+}
+#piece img{
+   height: 500px;
+   margin-right: 10px;
+   margin-left: 10px;
+   width: 400px;
+   margin-top: 20px;
+   transition: 0.5s;
+   border-top-right-radius: 50px;
+   box-shadow: 5px 5px 5px 5px black;
+}
+#dragon img{
+   height: 500px;
+   margin-right: 10px;
+   width: 400px;
+   margin-top: 10px;
+   transition: 0.5s;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 5px black;
+}
+#dragon img:hover{
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px 5px rgb(110, 110, 228);
+   border-left: solid 2px #ffffff;
+}
+.pic {
+   background: linear-gradient(rgb(62, 133, 62) ,blue,white);
+   display: flex;
+   height: 550px;
+   width: 1300px;
+   margin-left: 9px;
+   margin-top: 5px;
+   border-radius: 20px;
+}
+#hell img{
+   height: 500px;
+   width: 400px;
+   margin-top: 20px;
+   transition: 0.5s;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   box-shadow: 3px 3px 3px black;
+}
+
+#hell img:hover{
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px rgb(235, 206, 77);
+}  
+#blue img{
+   height: 400px;
+   transition: 0.5s;
+   box-shadow: 3px 3px 3px hsl(240, 38%, 30%);
+}
+#blue img:hover{
+   transform: scale(1.2);
+   box-shadow: 4px 4px 4px rgb(63, 63, 124);
+}
+#attack img{
+   height: 500px;
+   width: 400px;
+   padding: 5px 0 0 0;
+   transition: 0.5s;
+   border-radius: 20px;
+   box-shadow: 3px 3px 3px rgb(67, 78, 67);
+}
+#attack img:hover{
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px rgb(56, 134, 56);
+}
+#pic {
+   display: flex;
+   background:linear-gradient(green,black) ;
+   margin: 10px 0 0 135px ;
+   height: 550px;
+   width: 1000px;
+   border-radius: 20px;
+}
+#blue img{
+   margin: 5px 100px 0 50px;
+   height: 500px;
+   width: 400px;
+   box-shadow: 3px black;
+   border-radius: 20px;
+}
+.text {
+   background-color: beige;
+}
+#piece img:hover {
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px 5px rgb(34, 75, 28);
+}
+main{
+   background: linear-gradient(90deg,white, black,rgb(33, 33, 77));
+}
+#cont{
+   border: solid 3px;
+   background: linear-gradient(blue ,yellow);;
+}
+body{
+   user-select: none;
+}
+.pic img {
+   padding: 10px;
+}
+.text a:hover{
+   color: linear-gradient(blue ,yellow);;
+}

@@ -34,7 +34,7 @@
    border-left: solid 2px #ffffff;
 }
 .pic {
-   background: linear-gradient(rgb(62, 133, 62) ,blue,white);
+   background: linear-gradient(rgb(0, 0, 0) ,rgb(0, 0, 0),rgb(0, 0, 0));
    display: flex;
    height: 550px;
    width: 1300px;
@@ -79,7 +79,7 @@
 }
 #pic {
    display: flex;
-   background:linear-gradient(green,black) ;
+   background:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0)) ;
    margin: 10px 0 0 135px ;
    height: 550px;
    width: 1000px;
@@ -104,7 +104,7 @@ main{
 }
 #cont{
    border: solid 3px;
-   background: linear-gradient(blue ,yellow);;
+   background: linear-gradient(rgb(0, 0, 0) ,rgb(0, 0, 0));;
 }
 body{
    user-select: none;

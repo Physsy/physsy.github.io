@@ -1,0 +1,90 @@
+body {
+    display: grid;
+    place-items: center;   
+    background-size: contain;
+    background:linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,200,0,1) 100%);
+}    
+#inp{
+    border: solid black;
+    margin-top: 20px;
+    height: 300px;
+    text-align: center;
+    border-left: solid hsl(84, 100%, 57%);
+    border-right: solid black;
+    background: rgba(10,10,10,.5);
+    background-image: url('./img/fin.jpg');
+    background-size: cover;
+    border-right: 15px gold;
+    border-bottom: solid rgb(0, 0, 0);
+}
+.pnt{
+    margin-top: 5px;
+}
+.pnt,.tnp{
+    width: 290px;
+    height: 30px;
+    border-bottom-right-radius: 15px;
+    margin-right: 5px;
+    margin-top: 15px;
+    background-color: black;
+    border: solid hsl(84, 100%, 57%);
+    color: greenyellow;
+}
+form button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    background: linear-gradient(green,black);
+    transition: 0.5s;
+}
+form button:hover {
+    background: linear-gradient(90deg,green,black);
+}
+form{
+    box-shadow: 5px 5px 5px black;
+    border-top-right-radius: 10px;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 20px;
+}
+footer {
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+}
+.cont a{
+    padding: 15px;
+    color: black;
+}
+.cont a#active{
+    background: linear-gradient(rgb(27, 168, 46),rgb(14, 10, 10));
+    border: dotted black;
+}
+.cont a:hover:not(#active){
+    background-color: rgba(45, 45, 61, 0.438);
+}
+form a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    color: green;
+}
+.text a{
+    float: right;
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    width: 60px;
+}
+.text #home{
+    margin-left: 60px;
+}
+header {
+    width: 90%;
+    text-align: center;
+}
+.text h1{
+    margin-left: 240px;
+    color: green;
+}
